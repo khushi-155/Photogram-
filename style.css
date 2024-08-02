@@ -1,0 +1,299 @@
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  color: white;
+  width: 80vw;
+  
+  background-color: #272727;
+}
+body{
+  
+  background-color: #121212;
+}
+.posts-container {
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.sidebar{
+  background-color: #fef8f8;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f8f1f1;
+  font-style: oblique;
+}
+
+#posts {
+  margin-top: 20px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #121212;
+  color: white;
+}
+
+.post h3 {
+  font-size: 18px;
+   color: white;
+   text-align: center;
+}
+
+.post p {
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.post img {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.post button{
+  margin-left: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.post button:hover{
+  background-color:#a7a7a7;
+  
+}
+
+
+.post-footer {
+  margin-left: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #888;
+}
+
+.comments-container {
+  margin-top: 10px;
+  color: #666;
+}
+
+.comments-container p {
+  margin-left: 20px;
+}
+
+.sidebar {
+  /* flex: 1; */
+  padding-left: 20px;
+  margin-top: 85px;
+  margin-left: 20px;
+  height: 250px;
+  width: 30%;
+  font-size: 25px;
+  background-color: #121212;
+
+}
+
+.sidebar input[type="text"],
+.sidebar input[type="file"] {
+  width: 90%;
+  height:30px;
+  margin-bottom: 10px;
+}
+
+.sidebar button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* @media only screen and (max-width:878px){
+ .sidebar h3{
+  font-size: 1.5rem;
+ }
+ #postInput{
+     font-size: 0.6rem;
+     width: 80%;
+     height: 10px;
+     padding: 5px;
+ }
+
+} */
+/* @media only screen and (max-width:810px){
+  .sidebar h3{
+    font-size: 1.2rem;
+   }
+  #imageInput{
+    font-size: 0.7rem;
+   }
+} */
+/* @media only screen and (max-width:694px){
+  .sidebar h3{
+    font-size: 1.2rem;
+   }
+  #imageInput{
+    font-size: 0.5rem;
+   }
+   #postInput{
+    font-size: 0.55rem;
+    width: 90%;
+    height: 10px;
+    padding: 3px;
+}
+} */
+/* @media only screen and (max-width:556px){
+  .sidebar h3{
+    font-size: 1.05rem;
+   }
+   #imageInput{
+    font-size: 0.5rem;
+   }
+   
+} */
+/* @media only screen and (max-width:527px){
+  .sidebar h3{
+    font-size: 0.9rem;
+   }
+   #imageInput{
+    font-size: 0.4rem;
+   }
+   #postInput{
+    font-size: 0.35rem;
+    width: 80%;
+    height: 8px;
+    padding: 2px;
+}
+#postForm button{
+  font-size: 1.2rem;
+  padding: 2px;
+  height: 25px;
+  width: 50%;
+}
+} */
+/* @media only screen and (max-width:435px){
+  .sidebar h3{
+    font-size: 0.7rem;
+   }
+   #postInput{
+    font-size: 0.35rem;
+    width: 75%;
+    height: 5px;
+    padding: 3px;
+}
+#postForm button{
+  font-size: 1rem;
+  padding: 2px;
+  height: 20px;
+  width: 50%;
+}
+.commentinput{
+   width:33%;
+   margin-top: 5px;
+   margin-left: 20px;
+   font-size: 0.4rem;
+   margin-bottom: 5px;
+   
+}
+.pclass{
+  font-size: 1rem;
+}
+.like-btn{
+  font-size: 0.4rem;
+  width:33%;
+  margin-left: 0px;
+
+}
+} */
+ @media only screen and (max-width:844px){
+  .posts-container{
+    width:97vw;
+    margin: 3px;
+  }
+  .commentinput{
+    width:32%;
+  }
+  .comment-button{
+    margin:5px;
+    width: 20%;
+ }
+ .like-btn{
+  margin:6px;
+  width: 20%;
+}
+h3{
+  font-size: 1.1rem;
+}
+#postInput{
+  font-size: 0.5rem;
+  height: 20px;
+}
+#imageInput{
+  font-size: 0.5rem;
+  margin-bottom: 1px;
+}
+.sidebar button[type="submit"]{
+  margin-bottom: 15px;
+  font-size: 13px;
+  padding: 8px 20px;
+ 
+}
+ }
+ @media only screen and (max-width:786px){
+  /* .commentinput{
+    font-size: 0.5rem;
+  } */
+  .like-btn{
+    font-size: 0.4rem;
+    padding: 1px;
+  }
+  .sidebar{
+    height: 216px;
+  }
+  #postInput{
+    height: 15px;
+  }
+  h3{
+    margin-bottom: 10px;
+  }
+  .comment-button {
+    margin:1px;
+  }
+ }
+ @media only screen and (max-width:550px){
+    .container{
+      flex-direction: column;
+    }
+    .sidebar{
+      width: 80%;
+    }
+    .posts-container{
+      width: 80vw;
+    }
+    .comment-button{
+      font-size: 0.3rem;
+      margin-left: 1px;
+      width: 20%;
+    }
+    /* .submit-button{
+   
+    } */
+  
+    
+
+ }
